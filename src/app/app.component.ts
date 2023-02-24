@@ -1,4 +1,7 @@
+import { TodoService } from './Service/todo.service';
 import { Component } from '@angular/core';
+import { ToDo } from './Model/to-do';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ToDoApp';
-}
+
+
+
+  constructor(
+    ){}
+
+  ngOnInit(): void {
+
+     }
+
+
+
+
+
+  }
+
+

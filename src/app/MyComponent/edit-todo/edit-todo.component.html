@@ -1,0 +1,37 @@
+<div class="col-md-6 offset-md-3 mt-3 ">
+  <div>
+    <h2 class="text-center "><b>Update Todo </b></h2>
+  </div>
+
+  <form class="form-control">
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Todo Name:</label>
+      <input type="text" class="form-control" placeholder="Enter todo name" [(ngModel)]="todo.todo_name "
+        name="todo_name" />
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Todo Description:</label>
+      <textarea type="text" class="form-control" placeholder="Enter the todo description" [(ngModel)]="todo.desc "
+        name="desc"></textarea>
+    </div>
+
+
+    <div class="  mb-3">
+      <label for="exampleInputEmail1" class="form-label">Price:</label>
+      <div class="input-group">
+        <div class="input-group-text">$</div>
+        <input type="number" class="form-control" placeholder="  Enter tod price" [(ngModel)]="todo.price "
+          name="price">
+      </div>
+    </div>
+
+    <div class="text-center">
+      <button type="submit" class="btn btn-success" (click)="  updateTodo()"> Update Todo</button>
+      <button type="submit" class="btn btn-warning mx-2" routerLink="/"> Close</button>
+    </div>
+
+
+  </form>
+
+</div>

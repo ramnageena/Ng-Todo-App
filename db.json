@@ -1,0 +1,22 @@
+{
+  "task": [
+    {
+      "id": 1,
+      "todo_name": "Tv",
+      "desc": "samsung tv",
+      "price": 100
+    },
+    {
+      "id": 2,
+      "todo_name": "Almonds",
+      "desc": "Almonds helps us to incresese brain sharper",
+      "price": 10
+    },
+    {
+      "id": 3,
+      "desc": "apple is best for health",
+      "todo_name": "Apple",
+      "price": 7
+    }
+  ]
+}
